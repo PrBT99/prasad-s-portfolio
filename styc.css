@@ -1,0 +1,40 @@
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.cont-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #ecf0f1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cont-box {
+    padding: 20px;
+}
+
+.cont-details {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cont-details i {
+    margin-right: 10px;
+    color: #3498db;
+    font-size: 20px;
+}
+
+.cont-container h1 {
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
