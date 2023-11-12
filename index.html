@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Prasad's Portfolio</div>
+            <div class="right">
+                <ul class="navbar-list"> 
+                <li> <a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#education">Education</a></li>
+               <li><a href="#skills">Skills</a></li>
+
+               <li><a href="#contact">Contact</a></li>
+           </ul>
+            </div>
+        </nav>
+    </header>   
+
+    <main>
+        <section class="first-section">
+          
+               </div> <div class="left-section">Hi ,this is <span class="purple">Prasad</span> 
+                <div>I am a </div>  
+                <span id="element"></span>
+                    <div class="buttons">
+                        <a href="./Assets/Resume.pdf" download="Resume.pdf">
+                            <button class="btn">Download Resume</button></a>
+                        <a href="https://github.com/PrBT99"><button class="btn">Visit Github</button></a>
+                    </div>
+                </div>
+                <div class="right-section">
+                <img src="./Assets/web-development.png" alt="web developer image"/>
+            </div>
+            
+
+        </section>
+        <hr>
+        <br>
+
+        <h2 id="about">About</h2>
+        <div class="container" id="about">
+            <div class="Info">
+               Greetings! I'm a third-year computer science and engineering student at Maharashtra Institute of Technology, Chhatrapati Sambhaji Nagar. Passionate about coding, I've completed courses in Web Design and Development, showcasing proficiency in Python, HTML, CSS, JavaScript, and C. My diverse skill set, coupled with a commitment to quality code, reflects in my work. Throughout my academic journey, I've built a solid foundation in computer science, fostering a keen interest in innovative coding solutions. Eager to contribute to the dynamic field of technology, join me on this exciting journey of exploration and innovation in computer science and engineering.   </div>
+                <div class="Photo"> <img class="profile" src="./Assets/20230701_133752.jpg">
+                </div>
+        </div>
+            <br>
+            <hr>
+            <br>
+
+        <section class="second-section" id="education">
+            <span>What I have done so far</span>
+            <h2>Education</h2>
+        
+            <div class="timeline" >
+                <div class="event">
+                    <div class="date">2017</div>
+                    <div class="description">
+                        <h3>Primary and Secondary Shool</h3>
+                        <p>Podar International School,Pimpri,Pune</p>
+                        <p>Board: I.C.S.E</p>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="date">2018 - 2020</div>
+                    <div class="description">
+                        <h3>Junior College</h3>
+                        <p>Jai Hind Junior College,Pimpri,Pune</p>
+                        <p>Branch:Science  </p>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="date">2021 - 2025 (Currently Pursing)</div>
+                    <div class="description">
+                        <h3>Bachelor's Degree</h3>
+                        <p>Maharashtra Institute of Technology, Chhatrapati Sambhaji Nagar</p>
+                        <p>Branch: Computer Science and Engineering </p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <br>
+        <hr >
+
+
+               
+
+        
+        
+            <section class="skills-section" id="skills">
+                <h2>Skills</h2>
+                <div class="skills-grid" >
+                    <div class="skill-item" >
+                        <img class="fab fa-html5" src="./Assets/icons8-html-5-48.png" ></img>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill-item" >
+                        <img class="fab fa-css3-alt" src="./Assets/icons8-css3-48.png"></img>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="skill-item" id="js">
+                        <img class="fab fa-js" src="./Assets/icons8-javascript-48.png"></img>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-item" id="mysql">
+                        <img class="fas fa-database" src="./Assets/icons8-mysql-48.png"></img>
+                        <p>MySQL</p>
+                    </div>
+                    <div class="skill-item" id="python">
+                        <img class="fab fa-python" src="./Assets/icons8-python-48.png"></img>
+                        <p>Python</p>
+                    </div>
+                    <div class="skill-item" id="react">
+                        <img class="fab fa-react" src="./Assets/icons8-react-native-48.png"></img>
+                        <p>React</p>
+                    </div>
+                </div>
+            </section>
+        
+        
+        </body>
+        </html>
+        
+        <br>
+        <hr>
+        
+    <header>
+        <h2 id="contact">Contact Me</h2>
+    </header>
+
+    <div class="cont-container">
+        <div class="cont-box">
+            <div class="cont-details">
+                <i class="fas fa-user"></i><strong>Name:</strong><p></p> Prasad Birje
+            </div>
+            <div class="cont-details">
+                <i class="fas fa-envelope"></i><strong>Email:</strong> prasadbirjecareer@gmail.com
+            </div>
+            <div class="cont-details">
+                <i class="fas fa-phone"></i><strong>Phone:</strong>  8788027498
+            </div>
+        </div>
+    </div>
+    
+        
+        <footer> <small>&copy; Copyright |Prasad's Portfolio</small> </footer> 
+
+        
+            
+</main>
+
+    
+    
+    
+            
+        
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: [ 'Graphic Designer...','Cricket Enthusiast...','Web Developer...'],
+          typeSpeed: 60,
+        })
+     
+      </script>    
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins:wght@500&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    </body>
+</html>
